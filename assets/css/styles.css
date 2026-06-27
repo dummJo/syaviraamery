@@ -648,3 +648,12 @@
 .submit-btn{ transition:transform .2s, box-shadow .2s, opacity .2s; }
 .submit-btn:hover{ transform:translateY(-2px); box-shadow:0 12px 30px rgba(255,77,148,.4); }
 .wa-btn:hover{ background:rgba(255,77,148,.22); transform:translateY(-2px); box-shadow:0 12px 30px rgba(255,77,148,.3); }
+
+/* ---- hero headline alignment ----
+   Both hero states stack an identical "Syavira Amelia Risanty" headline at the
+   same spot; the wipe should read as ONE headline changing style. Keep the two
+   blocks the same height so their headlines sit at identical Y (no ghosting):
+   equalize the kicker/badge row, and lift the warm-only paragraph out of the
+   centering flow. */
+.hero-copy > :first-child{ min-height:34px; display:inline-flex; align-items:center; box-sizing:border-box; }
+.hero-copy > p{ position:absolute; left:0; top:100%; margin-top:18px !important; }
