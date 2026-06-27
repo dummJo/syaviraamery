@@ -70,7 +70,7 @@ npx vercel@latest deploy --prod --scope dummvinci
 - [ ] Real portrait photography (hero warm, hero clinical, about)
 - [ ] Real WhatsApp number
 - [ ] Confirm `hello@drsyavira.id` mailbox + complete FormSubmit activation
-- [ ] `og:image` (1200×630) for richer link previews
+- [x] `og:image` (1200×630) for richer link previews → `assets/og.png`
 - [ ] Real clinic address / map, credentials, and finalized copy
 
 ---
