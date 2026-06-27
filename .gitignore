@@ -1,0 +1,14 @@
+# dependencies (none required — static site)
+node_modules/
+
+# vercel local link / build output
+.vercel
+.vercel_build_output/
+
+# os / editor
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.idea/
+.vscode/
